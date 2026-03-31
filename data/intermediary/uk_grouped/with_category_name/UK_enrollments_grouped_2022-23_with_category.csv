@@ -1,0 +1,26 @@
+categorykey,Category,Subject,England,Wales,Scotland,Northern Ireland,Other UK,Total UK
+1,Natural & Physical Science,03 Biological and sport sciences,92570,10370,12785,2030,,117755
+1,Natural & Physical Science,07 Physical sciences,53910,2755,8530,1110,,66305
+1,Natural & Physical Science,09 Mathematical sciences,38375,1560,5575,585,,46090
+2,Information Technology,11 Computing,147425,9755,18350,5170,,180695
+3,Engineering & Related Tech,10 Engineering and technology,150900,9605,21280,4090,,185875
+4,Architecture & Building,"13 Architecture, building and planning",55440,2490,7190,1910,,67035
+5,Environment & Related,"06 Agriculture, food and related studies",15605,1340,2480,380,,19805
+5,Environment & Related,"26 Geography, earth and environmental studies (natural sciences)",25325,2265,4910,770,,33275
+5,Environment & Related,"26 Geography, earth and environmental studies (social sciences)",10375,745,1060,145,,12325
+6,Health,01 Medicine and dentistry,68005,3525,9985,2715,,84230
+6,Health,02 Subjects allied to medicine,303995,19115,35345,11080,,369535
+6,Health,05 Veterinary sciences,10050,140,2085,0,,12280
+7,Education,22 Education and teaching,102905,8140,16095,2865,,130005
+8,Management & Commerce,17 Business and management,500955,26670,45025,14420,,587075
+9,Society & Culture,04 Psychology,118035,8410,12515,2145,,141105
+9,Society & Culture,15 Social sciences,237930,14730,26890,6035,,285585
+9,Society & Culture,16 Law,124685,9420,9935,2550,,146595
+9,Society & Culture,19 Language and area studies,66100,4970,12325,1515,,84910
+9,Society & Culture,"20 Historical, philosophical and religious studies",62295,3885,11890,970,,79040
+9,Society & Culture,"24 Media, journalism and communications",39995,2705,4820,915,,48435
+10,Creative Arts,"25 Design, and creative and performing arts",166775,6545,13175,2035,,188535
+11,Others,23 Combined and general studies,31495,5250,9990,4070,,50805
+99,Total,Total,2423140,154385,292240,67515,,2937285
+99,Total,Total non-science CAH level 1,1343510,83060,151205,35525,,1613300
+99,Total,Total science CAH level 1,1079630,71325,141035,31995,,1323985

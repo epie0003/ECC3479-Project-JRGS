@@ -1,0 +1,41 @@
+﻿﻿Title:,"Table 52 - HE student enrolments by subject of study and permanent address"
+Subtitle:,"Academic years 2019/20 to 2024/25"
+Reference ID:,DT051 Table 52
+Data source:,HESA
+Data source link:,https://www.hesa.ac.uk/data-and-analysis/students/table-52
+Data file canonical link:,https://www.hesa.ac.uk/data-and-analysis/students/table-52.zip
+Licence:,Creative Commons Attribution 4.0 International Licence
+Date:,2026
+Filters:Subject of study,CAH level 1 ,Entrant marker,All 
+,Level of study,All 
+,Mode of study,All 
+,Academic year,2019/20 
+Search:,
+
+
+"Subject of study","England","Wales","Scotland","Northern Ireland","Other UK","Total UK","European Union","Non-European Union","Total Non-UK","Not known","Total"
+"01 Medicine and dentistry","48,230","2,445","5,105","2,440","135","58,350","3,200","9,005","12,205","0","70,555"
+"02 Subjects allied to medicine","215,675","14,610","25,610","9,985","370","266,245","8,910","16,765","25,670","5","291,925"
+"03 Biological and sport sciences","80,840","5,455","8,005","2,590","310","97,200","7,225","8,630","15,855","0","113,055"
+"04 Psychology","89,465","5,525","7,510","2,295","245","105,040","6,380","7,700","14,080","0","119,120"
+"05 Veterinary sciences","7,100","440","910","265","25","8,740","505","1,440","1,945","0","10,685"
+"06 Agriculture, food and related studies","10,300","1,090","2,045","535","45","14,010","825","1,950","2,775","0","16,785"
+"07 Physical sciences","44,565","2,540","5,345","1,225","125","53,795","5,115","7,550","12,665","5","66,465"
+"09 Mathematical sciences","28,600","1,370","2,685","895","90","33,640","3,070","10,015","13,085","0","46,725"
+"10 Engineering and technology","91,370","5,955","14,150","3,915","225","115,615","12,390","47,235","59,620","20","175,255"
+"11 Computing","75,790","5,035","9,940","5,285","170","96,220","10,525","25,395","35,925","0","132,145"
+"13 Architecture, building and planning","36,505","1,970","4,170","1,580","85","44,315","3,095","12,165","15,260","0","59,575"
+"26 Geography, earth and environmental studies (natural sciences)","21,800","1,460","2,465","860","95","26,680","1,435","3,630","5,065","0","31,750"
+"Total science CAH level 1","750,235","47,885","87,945","31,875","1,915","919,855","62,675","151,475","214,150","30","1,134,035"
+"15 Social sciences","176,635","12,175","15,980","5,915","380","211,085","14,340","34,920","49,260","0","260,345"
+"16 Law","81,895","4,845","6,855","2,490","250","96,340","6,670","19,825","26,495","0","122,835"
+"17 Business and management","214,955","10,470","20,180","7,405","565","253,580","30,200","129,065","159,265","10","412,850"
+"19 Language and area studies","64,795","3,815","6,870","2,040","235","77,750","6,240","12,745","18,985","5","96,740"
+"20 Historical, philosophical and religious studies","63,455","3,130","6,065","1,460","235","74,345","4,470","7,270","11,740","0","86,090"
+"22 Education and teaching","90,995","7,345","13,360","5,650","185","117,540","2,280","10,120","12,400","25","129,965"
+"23 Combined and general studies","23,260","4,200","7,715","1,390","30","36,595","1,230","3,690","4,920","0","41,520"
+"24 Media, journalism and communications","27,355","1,425","2,515","1,075","100","32,475","3,880","10,160","14,040","0","46,515"
+"25 Design, and creative and performing arts","125,135","7,890","9,220","3,205","500","145,950","15,400","25,685","41,090","10","187,045"
+"26 Geography, earth and environmental studies (social sciences)","8,820","415","495","130","40","9,900","565","1,470","2,030","0","11,935"
+"Total non-science CAH level 1","877,300","55,710","89,250","30,770","2,530","1,055,560","85,275","254,955","340,225","50","1,395,835"
+"Total","1,627,535","103,595","177,190","62,645","4,450","1,975,415","147,950","406,430","554,375","80","2,529,870"
