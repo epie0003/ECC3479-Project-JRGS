@@ -1,0 +1,23 @@
+Subject,England,Wales,Scotland,Northern Ireland,Other UK,Total UK
+"(A) Architecture, building & planning",45235.0,2215.0,6380.0,1515.0,,55345.0
+(B) Social studies,198700.0,12335.0,21710.0,4735.0,,237480.0
+(C) Law,79080.0,4415.0,9280.0,2480.0,,95260.0
+(D) Business & administrative studies,300685.0,16015.0,34030.0,7745.0,,358480.0
+(E) Mass communications & documentation,44395.0,2540.0,3405.0,970.0,,51310.0
+(F) Languages,77930.0,7230.0,12620.0,1590.0,,99365.0
+(G) Historical & philosophical studies,65110.0,4060.0,11650.0,1145.0,,81965.0
+(H) Creative arts & design,158475.0,8725.0,12575.0,2055.0,,181830.0
+(I) Education,112280.0,8155.0,16365.0,6025.0,,142825.0
+(J) Combined,19580.0,5255.0,6065.0,870.0,,31765.0
+01 Medicine & dentistry,54625.0,3210.0,7795.0,2130.0,,67755.0
+02 Subjects allied to medicine,234005.0,15750.0,31175.0,9525.0,,290445.0
+03 Biological sciences,195705.0,17545.0,24765.0,3745.0,,241755.0
+04 Veterinary science,6770.0,,1630.0,,,8400.0
+05 Agriculture & related subjects,15150.0,1290.0,2370.0,510.0,,19320.0
+06 Physical sciences,75130.0,6190.0,11810.0,1710.0,,94845.0
+07 Mathematical sciences,38635.0,1650.0,5040.0,585.0,,45910.0
+08 Computer science,90195.0,6135.0,13960.0,4440.0,,114730.0
+09 Engineering & technology,130855.0,9490.0,20855.0,3980.0,,165180.0
+Total,1942535.0,132205.0,253475.0,55755.0,,2383970.0
+Total - Non-science subject areas,1056235.0,68730.0,127700.0,27610.0,,1280280.0
+Total - Science subject areas,886295.0,63475.0,125775.0,28145.0,,1103690.0

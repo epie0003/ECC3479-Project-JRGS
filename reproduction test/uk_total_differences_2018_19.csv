@@ -1,0 +1,10 @@
+AcademicYear,Subject,categorykey,England_orig,Wales_orig,Scotland_orig,Northern Ireland_orig,Other UK_orig,Total UK_orig,Total UK_repro,diff_total
+2018/19,(C) Law,11,79080.0,4415.0,9280.0,2480.0,,95255.0,95260.0,-5.0
+2018/19,(D) Business & administrative studies,11,300685.0,16015.0,34030.0,7745.0,,358475.0,358480.0,-5.0
+2018/19,(F) Languages,11,77930.0,7230.0,12620.0,1590.0,,99370.0,99365.0,5.0
+2018/19,(J) Combined,11,19580.0,5255.0,6065.0,870.0,,31770.0,31765.0,5.0
+2018/19,01 Medicine & dentistry,6,54625.0,3210.0,7795.0,2130.0,,67760.0,67755.0,5.0
+2018/19,02 Subjects allied to medicine,6,234005.0,15750.0,31175.0,9525.0,,290455.0,290445.0,10.0
+2018/19,03 Biological sciences,1,195705.0,17545.0,24765.0,3745.0,,241760.0,241755.0,5.0
+2018/19,06 Physical sciences,5,75130.0,6190.0,11810.0,1710.0,,94840.0,94845.0,-5.0
+2018/19,Total - Non-science subject areas,99,1056235.0,68730.0,127700.0,27610.0,,1280275.0,1280280.0,-5.0
