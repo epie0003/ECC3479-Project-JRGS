@@ -31,6 +31,26 @@ pip install pandas openpyxl jupyter matplotlib numpy selenium
 - `EmploymentOutcomes/`: employment-related outputs/assets
 - `UniEnrollmentsUK/`: UK source files used in the pipeline
 
+## Using the Reproducible Code Scripts
+
+The `code/` folder contains Python scripts that transform rates data into analysis-ready formats. These scripts are reproducible and can be run independently:
+
+```powershell
+# From the project root, activate the environment first
+.\.venv\Scripts\Activate.ps1
+
+# Run the rate-combination script (combines all yearly rate files)
+python code\combine_rates.py
+
+# Run the FOE-code merge script (merges discipline info by FOE code)
+python code\merge_rates_by_foe_code.py
+
+# Run the reshaping script (creates year-by-year comparison table)
+python code\reshape_rates_comparison.py
+```
+
+Each script reads inputs from `rates/`, performs transformations, and outputs consolidated/reshaped CSVs back to `rates/`. They must be run in order (combine → merge → reshape).
+
 ## Raw Data Requirements
 
 `data/raw/` contains source data where possible. Some files are not fully raw because the public source is only available as a pre-aggregated CSV or Excel export.
