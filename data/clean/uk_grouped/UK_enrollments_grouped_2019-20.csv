@@ -1,26 +1,26 @@
 Subject,England,Wales,Scotland,Northern Ireland,Other UK,Total UK
-01 Medicine and dentistry,48230,2445,5105,2440,135,58350
-02 Subjects allied to medicine,215675,14610,25610,9985,370,266245
-03 Biological and sport sciences,80840,5455,8005,2590,310,97200
-04 Psychology,89465,5525,7510,2295,245,105040
-05 Veterinary sciences,7100,440,910,265,25,8740
-"06 Agriculture, food and related studies",10300,1090,2045,535,45,14010
-07 Physical sciences,44565,2540,5345,1225,125,53795
-09 Mathematical sciences,28600,1370,2685,895,90,33640
-10 Engineering and technology,91370,5955,14150,3915,225,115615
-11 Computing,75790,5035,9940,5285,170,96220
-"13 Architecture, building and planning",36505,1970,4170,1580,85,44315
-"26 Geography, earth and environmental studies (natural sciences)",21800,1460,2465,860,95,26680
-Total science CAH level 1,750235,47885,87945,31875,1915,919855
-15 Social sciences,176635,12175,15980,5915,380,211085
-16 Law,81895,4845,6855,2490,250,96340
-17 Business and management,214955,10470,20180,7405,565,253580
-19 Language and area studies,64795,3815,6870,2040,235,77750
-"20 Historical, philosophical and religious studies",63455,3130,6065,1460,235,74345
-22 Education and teaching,90995,7345,13360,5650,185,117540
-23 Combined and general studies,23260,4200,7715,1390,30,36595
-"24 Media, journalism and communications",27355,1425,2515,1075,100,32475
-"25 Design, and creative and performing arts",125135,7890,9220,3205,500,145950
-"26 Geography, earth and environmental studies (social sciences)",8820,415,495,130,40,9900
-Total non-science CAH level 1,877300,55710,89250,30770,2530,1055560
-Total,1627535,103595,177190,62645,4450,1975415
+01 Medicine and dentistry,48230,2445,5105,2440,135,70555
+02 Subjects allied to medicine,215675,14610,25610,9985,370,291925
+03 Biological and sport sciences,80840,5455,8005,2590,310,113055
+04 Psychology,89465,5525,7510,2295,245,119120
+05 Veterinary sciences,7100,440,910,265,25,10685
+"06 Agriculture, food and related studies",10300,1090,2045,535,45,16785
+07 Physical sciences,44565,2540,5345,1225,125,66465
+09 Mathematical sciences,28600,1370,2685,895,90,46725
+10 Engineering and technology,91370,5955,14150,3915,225,175255
+11 Computing,75790,5035,9940,5285,170,132145
+"13 Architecture, building and planning",36505,1970,4170,1580,85,59575
+"26 Geography, earth and environmental studies (natural sciences)",21800,1460,2465,860,95,31750
+Total science CAH level 1,750235,47885,87945,31875,1915,1134035
+15 Social sciences,176635,12175,15980,5915,380,260345
+16 Law,81895,4845,6855,2490,250,122835
+17 Business and management,214955,10470,20180,7405,565,412850
+19 Language and area studies,64795,3815,6870,2040,235,96740
+"20 Historical, philosophical and religious studies",63455,3130,6065,1460,235,86090
+22 Education and teaching,90995,7345,13360,5650,185,129965
+23 Combined and general studies,23260,4200,7715,1390,30,41520
+"24 Media, journalism and communications",27355,1425,2515,1075,100,46515
+"25 Design, and creative and performing arts",125135,7890,9220,3205,500,187045
+"26 Geography, earth and environmental studies (social sciences)",8820,415,495,130,40,11935
+Total non-science CAH level 1,877300,55710,89250,30770,2530,1395835
+Total,1627535,103595,177190,62645,4450,2529870
