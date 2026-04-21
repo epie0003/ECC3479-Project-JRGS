@@ -31,6 +31,26 @@ pip install pandas openpyxl jupyter matplotlib numpy selenium
 - `EmploymentOutcomes/`: employment-related outputs/assets
 - `UniEnrollmentsUK/`: UK source files used in the pipeline
 
+## EDA Notebooks
+
+The EDA notebooks are in `docs/EDA analysis/`. The two most important ones are:
+
+- **`EDA Questions.ipynb`** — the primary analysis notebook; answers 10 structured EDA questions across all four datasets with visualisations and statistical tests.
+- **`EDA Summary and Modelling Implications.ipynb`** — synthesises all EDA findings into concrete modelling requirements (fixed effects, log transformation, JRG indicator, COVID dummy, DiD specification).
+
+Each individual dataset also has its own EDA notebook. Each of these ends with a short "What Is Learned" or "Data Characteristics" section that concisely summarises the key findings relevant to that dataset:
+
+- `AUS Enrollments EDA.ipynb`
+- `UK Enrollments EDA.ipynb`
+- `AUS Student and Commonwealth Contributions EDA.ipynb` — per-unit funding rates by cluster and FOE
+- `AUS Commonwealth Funding EDA.ipynb` — total funding aggregated by category and year
+- `Employment by Industry EDA.ipynb`
+- `AUS_Enrollments_Funding_Multivariate_EDA.ipynb`
+
+A `Limitations.ipynb` notebook in `docs/` documents known data limitations (coverage gaps, missing values, structural breaks, aggregation decisions).
+
+> **Note:** All EDA notebooks must be run top-to-bottom from a fresh kernel. `EDA Questions.ipynb` in particular depends on a setup cell that must execute first.
+
 ## Using the Reproducible Code Scripts
 
 The `code/` folder contains Python scripts that transform rates data into analysis-ready formats. These scripts are reproducible and can be run independently:
@@ -205,30 +225,30 @@ Important notes:
 
 Open and run these notebooks in order:
 
-1. `docs/Raw Uni Enrollments AUS.ipynb`
-2. `docs/UK Uni Enrollments RAW.ipynb`
-3. `docs/AUS Uni Funding.ipynb`
-4. `docs/Employment Shortages AUS.ipynb`
+1. `docs/Data Collecting Notes/Raw Uni Enrollments AUS.ipynb`
+2. `docs/Data Collecting Notes/UK Uni Enrollments RAW.ipynb`
+3. `docs/Data Collecting Notes/AUS Uni Funding.ipynb`
+4. `docs/Data Collecting Notes/Employment Shortages AUS.ipynb`
 
 Notebook outputs and notes:
 
-1. `docs/Raw Uni Enrollments AUS.ipynb`
+1. `docs/Data Collecting Notes/Raw Uni Enrollments AUS.ipynb`
 	- Input: `data/raw/EnrollmentsAUS_category.csv`
 	- Input: `data/raw/EnrollmentsAUS_category_with_key.csv`
 	- Output: `data/clean/EnrollmentsAUS_category_with_numeric_key.csv`
-2. `docs/UK Uni Enrollments RAW.ipynb`
+2. `docs/Data Collecting Notes/UK Uni Enrollments RAW.ipynb`
 	- Input: top-level `UniEnrollmentsUK/` folder and UK source CSV files
 	- Output: `data/clean/uk_grouped/with_categorykey/UK_enrollments_grouped_comparison_all_years_with_categorykey.csv`
 	- Output: year-by-year grouped UK files in `data/clean/uk_grouped/with_categorykey/`
 	- Output: uncategorised grouped UK comparison file in `data/clean/uk_grouped/UK_enrollments_grouped_comparison_all_years.csv`
 	- Output: category-name-enriched grouped UK files in `data/clean/uk_grouped/with_categorykey/with_category_name/`
-3. `docs/AUS Uni Funding.ipynb`
+3. `docs/Data Collecting Notes/AUS Uni Funding.ipynb`
 	- Input: yearly rate files in `rates/`
 	- Note: Excel workbooks must preserve the sheet and header structure expected by the notebook parser
 	- Output: `data/clean/AnnualFundingAUS2019-2026_with_category_key.csv`
 	- Output: `data/clean/AnnualFundingAUS2019-2026.csv`
 	- Output: `data/intermediary/clean/AnnualFundingAUS2019-2026_category_summary.csv`
-4. `docs/Employment Shortages AUS.ipynb`
+4. `docs/Data Collecting Notes/Employment Shortages AUS.ipynb`
 	- Input: yearly OSL CSV files in `EmploymentShortages/`
 	- Input: `EmploymentOutcomes/industry_data_-_november_2025_revised (1).xlsx`
 	- Note: the employment workbook must preserve the expected `Table_1`/`Table_2`/`Table_3` structure, and `Table_2` must contain an `Industry` header row
