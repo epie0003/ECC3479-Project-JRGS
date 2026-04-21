@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(.venv/Scripts/pip install *)"
+      "Bash(.venv/Scripts/pip install *)",
+      "Bash(git mv *)",
+      "Bash(.venv/Scripts/python -c \"import pandas, matplotlib, seaborn, scipy, statsmodels, numpy; print\\('All packages OK'\\)\")",
+      "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=300 \"docs/EDA analysis/AUS Enrollments EDA.ipynb\")",
+      "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=300 \"docs/EDA analysis/UK Enrollments EDA.ipynb\")",
+      "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=300 \"docs/EDA analysis/AUS Student and Commonwealth Contributions EDA.ipynb\")",
+      "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=300 \"docs/EDA analysis/AUS_Enrollments_Funding_Multivariate_EDA.ipynb\")",
+      "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=300 \"docs/EDA analysis/Employment by Industry EDA.ipynb\")",
+      "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=300 \"docs/EDA analysis/EDA Questions.ipynb\")",
+      "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=300 \"docs/EDA analysis/Multivariate EDA UK AUS Enrollments.ipynb\")"
     ]
   }
 }
