@@ -1,0 +1,155 @@
+year,category_code,description,sac_rate_level2_excl_gst
+2016,A,"Arts [#03], Social Sciences [#03], General [#5.2], Vocational Training for Industry [#22.1]",6135.0
+2016,B,"Architecture (non-degree) [#02], Computer Science [#06], Fine Arts, Design [#12], Music and Performing Arts [#16], Health-related Professions #17], Vocational Training for Industry [#22.1], Medical Imaging [#25], Occupational Therapy [#28], Clinical Psychology [#34]",9384.0
+2016,C,"Architecture (degree) [#02], Engineering, Technology [#11], Health Sciences [#13], Vocational Training for Industry [#22.1], Midwifery [#27], Physiotherapy [#29], Speech Language Therapy [#32], Medical Laboratory Science [#33], Audiology [#35]",11282.0
+2016,G,G Not valid for PTEs,21035.0
+2016,H,Agriculture and Horticulture (degree) [#01] Specialist Large Animal Science [#39],17602.0
+2016,I,"Teaching [#19, #20]",8741.0
+2016,J,"Business, Accountancy [#04], Law [#14], Vocational Training for Industry [#22.1]",6135.0
+2016,L,"Agriculture and Horticulture (non degree) [#01], Osteopathy, Acupuncture [#3.1], Vocational Training for Industry [#22.1], Nursing [#24]",10545.0
+2016,M,Pilot Training [#11.2] Optometry [#13.1] Dental Therapy [#17.3],15301.0
+2016,N,Priority Engineering [#11.1] Dietetics [#36],12518.0
+2016,O,O Not valid for PTEs,18160.0
+2016,Q,Q Not valid for PTEs,27521.0
+2016,R,R Not valid for PTEs,51690.0
+2016,T,T Not valid for PTEs,36139.0
+2016,U,U Not valid for PTEs,42622.0
+2016,V,Science [#18],12798.0
+2017,A,"Arts [#03], Social Sciences [#03], General [#5.2], Vocational Training for Industry [#22.1]",6135.0
+2017,B,Computer Science [#06] Fine Arts; Design [#12] Health-related Professions [#17] Music and Performing Arts [#16] Vocational Training for Industry [#22.1] Architecture (non-degree) [#02] Medical Imaging [#25] Occupational Therapy [#28] Clinical Psychology [#34],9384.0
+2017,C,"Engineering, Technology [#11] Health Sciences [#13] Architecture (degree) [#02] Vocational Training for Industry [#22.1] Midwifery [#27] Physiotherapy [#29] Speech Language Therapy [#32]",11282.0
+2017,H,Agriculture and Horticulture (degree) [#01] Specialist Large Animal Science [#39],20344.0
+2017,I,Teaching [#19.1] Teaching [#19.2] Teaching [#20],8741.0
+2017,J,"Business, Accountancy [#04] Law [#14] Vocational Training for Industry [#22.1]",6135.0
+2017,L,"Osteopathy, Acupuncture [#3.1] Vocational Training for Industry [#22.1] Agriculture and Horticulture (non-degree) [#01] Nursing [#24]",10545.0
+2017,M,Pilot Training [#11.2] Dental Therapy [#17.3] Optometry [#13.1] Pharmacy [#31],15301.0
+2017,N,Priority Engineering [#11.1] Dietetics [#36],12518.0
+2017,O,O Not valid for PTEs,18160.0
+2017,Q,Q Not valid for PTEs,27521.0
+2017,R,R Not valid for PTEs,51690.0
+2017,T,T Not valid for PTEs,42622.0
+2017,U,U Not valid for PTEs,42622.0
+2017,V,Science [#18],13408.0
+2018,A,"Arts [#03], Social Sciences [#03],",6196.0
+2018,A,Audiology [#35],14482.0
+2018,B,Computer Science [#06] Fine Arts; Design [#12] Health-related Professions [#17],9478.0
+2018,C,"Engineering, Technology [#11] Health Sciences [#13]",11395.0
+2018,D,Dietetics [#36],15904.0
+2018,H,Agriculture and Horticulture (degree) [#01] Specialist Large Animal Science [#39],20547.0
+2018,I,Teaching [#19.1] Teaching [#19.2] Teaching [#20],8828.0
+2018,J,"Business, Accountancy [#04] Law [#14]",6196.0
+2018,L,"Osteopathy, Acupuncture [#3.1]",10650.0
+2018,M,Pilot Training [#11.2] Optometry [#13.1] Dental Therapy [#17.3],15454.0
+2018,N,Priority Engineering [#11.1],12643.0
+2018,O,O Not valid for PTEs,18342.0
+2018,Q,Q Not valid for PTEs,27796.0
+2018,R,R Not valid for PTEs,52207.0
+2018,T,T Not valid for PTEs,43048.0
+2018,U,U Not valid for PTEs,43048.0
+2018,V,Science [#18],13542.0
+2019,A,"Arts [#03], Social Sciences [#03]",6295.0
+2019,B,"Computer Science [#06],",9630.0
+2019,B,"$9,630",9630.0
+2019,C,"Engineering, Technology [#11], Health Sciences [#13]",11577.0
+2019,H,"Agriculture and Horticulture (degree) [#01], Specialist Large Animal Science [#39]",20876.0
+2019,I,"Teaching [#19.1], Teaching",8969.0
+2019,J,"Business, Accountancy [#04], Law [#14]",6295.0
+2019,L,"Osteopathy, Acupuncture",10820.0
+2019,M,"Dental Therapy [#17.3], Optometry [#13.1], Pilot Training [#11.2]",15701.0
+2019,N,Priority Engineering,12845.0
+2019,O,O Not valid for PTEs,18635.0
+2019,Q,Q Not valid for PTEs,28241.0
+2019,U,U Not valid for PTEs,43737.0
+2019,V,Science [#18],13759.0
+2020,A,"Arts [#03], Social Sciences [#03]",6408.0
+2020,B,"Computer Science [#06], Fine Arts; Design [#12],",9803.0
+2020,B,Health-related Professions [#17],9803.0
+2020,C,"Engineering, Technology [#11], Health Sciences [#13]",11785.0
+2020,H,"Agriculture and Horticulture (degree) [#01], Specialist Large Animal Science [#39]",21252.0
+2020,I,"Teaching [#19.1], Teaching [#19.2], Teaching",9732.0
+2020,J,"Business, Accountancy [#04], Law [#14]",6408.0
+2020,L,"Osteopathy, Acupuncture [#3.1]",11015.0
+2020,M,"Dental Therapy [#17.3], Optometry [#13.1], Pilot Training [#11.2]",15984.0
+2020,N,Priority Engineering [#11.1],13076.0
+2020,O,Medical Radiation Therapy [#30],18970.0
+2020,Q,Veterinary Science [#23],28749.0
+2020,R,Dentistry (postgraduate only) [#07],53997.0
+2020,T,Medicine undergraduate (years 2-3) [#15],44524.0
+2020,U,Medicine undergraduate (years 4–6) [#37],44524.0
+2020,V,Science [#18],14007.0
+2021,A,"Arts [#03], Social Sciences [#03]",6511.0
+2021,B,"Computer Science [#06], Fine Arts; Design [#12],",9960.0
+2021,C,"Engineering, Technology [#11], Health Sciences [#13]",11974.0
+2021,H,"Agriculture and Horticulture (degree) [#01], Specialist Large Animal Science [#39]",21592.0
+2021,I,"Teaching [#19.1], Teaching [#19.2], Teaching",9888.0
+2021,J,"Business, Accountancy [#04], Law [#14]",6511.0
+2021,M,"Dental Therapy [#17.3], Optometry [#13.1], Pilot Training [#11.2]",16240.0
+2021,N,Priority Engineering [#11.1],13285.0
+2021,O,Medical Radiation Therapy [#30],19274.0
+2021,Q,Veterinary Science [#23],29209.0
+2021,R,Dentistry undergraduate (years 2-5) [#07],54861.0
+2021,T,Medicine undergraduate (years 2-3) [#15],45236.0
+2021,U,Medicine undergraduate (years 4–6) [#37],45236.0
+2022,A,"Arts [#03], Social Sciences [#03]",6589.0
+2022,B,"Computer Science [#06], Fine Arts; Design [#12], Health-related Professions [#17]",10080.0
+2022,C,"Engineering, Technology [#11], Health Sciences [#13]",12118.0
+2022,D,Dietetics [#36],16913.0
+2022,H,"Agriculture and Horticulture (degree) [#01], Specialist Large Animal Science [#39]",21851.0
+2022,I,"Teaching [#19.1], Teaching [#19.2], Teaching [#20]",10475.0
+2022,J,"Business, Accountancy [#04], Law [#14]",6589.0
+2022,M,"Dental Therapy [#17.3], Optometry [#13.1], Pilot Training [#11.2]",16435.0
+2022,N,Priority Engineering [#11.1],13444.0
+2022,O,"Osteopathy, Acupuncture [#3.1]",14279.0
+2022,O,Medical Radiation Therapy [#30],19505.0
+2022,Q,Veterinary Science [#23],32516.0
+2022,R,Dentistry undergraduate (years 2-5 ) [#07],55519.0
+2022,S,Science [#18],18155.0
+2022,T,Medicine undergraduate (years 2-3) [#15],45779.0
+2022,U,Medicine undergraduate (years 4–6) [#37],45779.0
+2023,A,"Arts; Advanced Studies for Teachers; Health Therapies; Humanities; Languages; Social Sciences [#03], General Education [#5.2],",6770.0
+2023,B,"Architecture; Quantity Surveying (non-degree) [#02], Computer Science [#06], Fine Arts [#12], Design [#12], Music and Performing Arts [#16], Health Related Professions [#17], Medical Imaging [#25], Occupational Therapy [#28]",10357.0
+2023,C,"Architecture; Quantity Surveying (degree) [#02], Engineering; Technology [#11],Health Sciences [#13], Midwifery (Undergraduate) [#27], Physiotherapy [#29], Speech Language Therapy [#32], Medical Laboratory Science [#33], Audiology [#35]",12451.0
+2023,H,"Agriculture; Horticulture (degree and diploma/certificate in specialised Agriculture and Horticulture) [#01], Specialist Large Animal Science [#39]",22452.0
+2023,I,"Teaching [#19.1, #19.2, #20]",10763.0
+2023,J,"Business; Accountancy; Office Systems/Secretarial; Management[#04] Law [#14],",6770.0
+2023,L,"Agriculture; Horticulture (non degree) [#01], Osteopathy [#03.1], Acupuncture [#03.1], Nursing [#24],",11636.0
+2023,M,"Pilot Training [#11.2], Optometry [#13.1], Dental Therapy [#17.3], Pharmacy Professionals [#31]",16887.0
+2023,N,"Priority Engineering [#11.1], Dietetics [#36]",13814.0
+2023,O,Medical Radiation Therapy [#30],20041.0
+2023,Q,"Veterinary [#23], Veterinary Science (years 3–5) [#23.3]",33410.0
+2023,R,Dentistry undergraduate (years 2-5) [#07],57046.0
+2023,T,Medicine undergraduate (years 2-3) [#15],47038.0
+2023,U,Medicine undergraduate (years 4–6) [#37],47038.0
+2023,V,"Science [#18], Clinical Psychology [#34]",14798.0
+2024,A,"Arts; Advanced Studies for Teachers; Health Therapies; Humanities; Languages; Social Sciences [#03], General Education [#5.2],",7379.0
+2024,B,"Architecture; Quantity Surveying (non-degree) [#02], Computer Science [#06], Fine Arts [#12], Design [#12], Music and Performing Arts [#16], Health Related Professions [#17], Medical Imaging [#25], Occupational Therapy [#28]",11289.0
+2024,C,"Architecture; Quantity Surveying (degree) [#02], Engineering; Technology [#11],Health Sciences [#13], Midwifery (Undergraduate) [#27], Physiotherapy [#29], Speech Language Therapy [#32], Medical Laboratory Science [#33], Audiology [#35]",13572.0
+2024,H,"Agriculture; Horticulture (degree and diploma/certificate in specialised Agriculture and Horticulture) [#01], Specialist Large Animal Science [#39]",24473.0
+2024,I,"Teaching [#19.1, #19.2, #20]",11732.0
+2024,J,"Business; Accountancy; Office Systems/Secretarial; Management[#04] Law [#14],",7379.0
+2024,L,"Agriculture; Horticulture (non degree) [#01], Osteopathy [#03.1], Acupuncture [#03.1], Nursing [#24],",12683.0
+2024,M,"Pilot Training [#11.2], Optometry [#13.1], Dental Therapy [#17.3], Pharmacy Professionals [#31]",18407.0
+2024,N,"Priority Engineering [#11.1], Dietetics [#36]",15057.0
+2024,O,Medical Radiation Therapy [#30],26214.0
+2024,Q,"Veterinary [#23], Veterinary Science (years 3–5) [#23.3]",36417.0
+2024,R,Dentistry undergraduate (years 2-5) [#07],62180.0
+2024,T,Medicine undergraduate (years 2-3) [#15],51271.0
+2024,U,Medicine undergraduate (years 4–6) [#37],51271.0
+2024,V,"Science [#18], Clinical Psychology [#34]",16130.0
+2024,W,Mātauranga and Te Reo Māori [#42],7656.0
+2025,A,"Arts; Advanced Studies for Teachers; Health Therapies; Humanities; Languages; Social Sciences [#03], General Education [#5.2],",7563.0
+2025,B,"Architecture; Quantity Surveying (non-degree) [#02], Computer Science [#06], Fine Arts [#12], Design [#12], Music and Performing Arts [#16], Health Related Professions [#17], Medical Imaging [#25], Occupational Therapy [#28]",11571.0
+2025,C,"Architecture; Quantity Surveying (degree) [#02], Engineering; Technology [#11],Health Sciences [#13], Midwifery (Undergraduate) [#27], Physiotherapy [#29], Speech Language Therapy [#32], Medical Laboratory Science [#33], Audiology [#35]",13911.0
+2025,H,"Agriculture; Horticulture (degree and diploma/certificate in specialised Agriculture and Horticulture) [#01], Specialist Large Animal Science [#39]",25085.0
+2025,I,"Teaching [#19.1, #19.2, #20]",12025.0
+2025,J,"Business; Accountancy; Office Systems/Secretarial; Management[#04] Law [#14],",7563.0
+2025,L,"Agriculture; Horticulture (non degree) [#01], Osteopathy [#03.1], Acupuncture [#03.1], Nursing [#24],",13000.0
+2025,M,"Pilot Training [#11.2], Optometry [#13.1], Dental Therapy [#17.3], Pharmacy Professionals [#31]",18867.0
+2025,N,"Priority Engineering [#11.1], Dietetics [#36]",15433.0
+2025,O,Medical Radiation Therapy [#30],26869.0
+2025,Q,"Veterinary [#23], Veterinary Science (years 3–5) [#23.3]",37327.0
+2025,R,Dentistry undergraduate (years 2-5) [#07],63735.0
+2025,T,Medicine undergraduate (years 2-3) [#15],52553.0
+2025,U,Medicine undergraduate (years 4–6) [#37],52553.0
+2025,V,"Science [#18], Clinical Psychology [#34]",16533.0
+2025,W,Mātauranga and Te Reo Māori [#42],8114.0

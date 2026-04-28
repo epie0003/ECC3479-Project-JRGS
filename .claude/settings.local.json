@@ -10,7 +10,12 @@
       "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=300 \"docs/EDA analysis/AUS_Enrollments_Funding_Multivariate_EDA.ipynb\")",
       "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=300 \"docs/EDA analysis/Employment by Industry EDA.ipynb\")",
       "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=300 \"docs/EDA analysis/EDA Questions.ipynb\")",
-      "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=300 \"docs/EDA analysis/Multivariate EDA UK AUS Enrollments.ipynb\")"
+      "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=300 \"docs/EDA analysis/Multivariate EDA UK AUS Enrollments.ipynb\")",
+      "Bash(python -c ' *)",
+      "Bash(python gen_arch_notebook.py)",
+      "Bash(.venv/Scripts/python -c ' *)",
+      "Bash(.venv/Scripts/python -m jupyter --version)",
+      "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=120 \"docs/Regression Analysis/REG Architecture & Building.ipynb\")"
     ]
   }
 }

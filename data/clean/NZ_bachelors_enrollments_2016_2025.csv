@@ -1,0 +1,131 @@
+field_of_study,category_key,year,domestic_bachelors,international_bachelors,total_bachelors
+Natural and Physical Sciences,1,2016,31530,5110,36640
+Natural and Physical Sciences,1,2017,30630,5270,35900
+Natural and Physical Sciences,1,2018,30575,5675,36250
+Natural and Physical Sciences,1,2019,30565,6100,36665
+Natural and Physical Sciences,1,2020,30665,5085,35750
+Natural and Physical Sciences,1,2021,33010,5190,38200
+Natural and Physical Sciences,1,2022,30950,4825,35775
+Natural and Physical Sciences,1,2023,29960,5065,35025
+Natural and Physical Sciences,1,2024,29940,4795,34735
+Natural and Physical Sciences,1,2025,30750,5630,36380
+Information Technology,2,2016,16740,4060,20800
+Information Technology,2,2017,15210,4115,19325
+Information Technology,2,2018,14965,4545,19505
+Information Technology,2,2019,14470,4835,19305
+Information Technology,2,2020,13955,4560,18515
+Information Technology,2,2021,14270,4810,19075
+Information Technology,2,2022,13775,4675,18450
+Information Technology,2,2023,14265,5150,19415
+Information Technology,2,2024,15250,5515,20765
+Information Technology,2,2025,14775,5940,20715
+Engineering and Related Technologies,3,2016,5355,1610,6965
+Engineering and Related Technologies,3,2017,5455,1655,7110
+Engineering and Related Technologies,3,2018,5370,1755,7125
+Engineering and Related Technologies,3,2019,5685,1960,7645
+Engineering and Related Technologies,3,2020,5585,1740,7325
+Engineering and Related Technologies,3,2021,5465,1270,6735
+Engineering and Related Technologies,3,2022,4570,985,5560
+Engineering and Related Technologies,3,2023,5005,1330,6335
+Engineering and Related Technologies,3,2024,5205,1480,6680
+Engineering and Related Technologies,3,2025,5050,1565,6620
+Architecture and Building,4,2016,2430,645,3080
+Architecture and Building,4,2017,2590,625,3215
+Architecture and Building,4,2018,2905,695,3600
+Architecture and Building,4,2019,3130,775,3900
+Architecture and Building,4,2020,3300,660,3960
+Architecture and Building,4,2021,3485,675,4160
+Architecture and Building,4,2022,3410,600,4010
+Architecture and Building,4,2023,3435,610,4045
+Architecture and Building,4,2024,3475,605,4080
+Architecture and Building,4,2025,3450,810,4260
+"Agriculture, Environmental and Related",5,2016,4210,840,5055
+"Agriculture, Environmental and Related",5,2017,5060,900,5965
+"Agriculture, Environmental and Related",5,2018,4965,865,5835
+"Agriculture, Environmental and Related",5,2019,4555,925,5480
+"Agriculture, Environmental and Related",5,2020,4995,735,5730
+"Agriculture, Environmental and Related",5,2021,5370,745,6120
+"Agriculture, Environmental and Related",5,2022,5255,705,5955
+"Agriculture, Environmental and Related",5,2023,4770,1000,5770
+"Agriculture, Environmental and Related",5,2024,4520,975,5500
+"Agriculture, Environmental and Related",5,2025,4790,1345,6135
+Health,6,2016,27605,1855,29460
+Health,6,2017,27355,1850,29210
+Health,6,2018,27490,1905,29395
+Health,6,2019,28090,2115,30205
+Health,6,2020,28360,1960,30325
+Health,6,2021,30285,1680,31965
+Health,6,2022,30360,1685,32045
+Health,6,2023,29200,1940,31145
+Health,6,2024,29705,2290,31995
+Health,6,2025,31595,2880,34475
+Education,7,2016,12520,805,13325
+Education,7,2017,12325,760,13080
+Education,7,2018,12280,755,13035
+Education,7,2019,12145,875,13020
+Education,7,2020,12115,805,12920
+Education,7,2021,13120,805,13925
+Education,7,2022,12275,790,13060
+Education,7,2023,11465,975,12440
+Education,7,2024,10995,1055,12045
+Education,7,2025,11125,1045,12170
+Management and Commerce,8,2016,36010,9185,45195
+Management and Commerce,8,2017,35690,9535,45225
+Management and Commerce,8,2018,34445,9615,44060
+Management and Commerce,8,2019,33885,10050,43935
+Management and Commerce,8,2020,33180,9070,42255
+Management and Commerce,8,2021,33640,8155,41795
+Management and Commerce,8,2022,31855,7760,39610
+Management and Commerce,8,2023,30465,8060,38525
+Management and Commerce,8,2024,31095,7785,38880
+Management and Commerce,8,2025,32435,8425,40855
+Society and Culture,9,2016,65530,9495,75025
+Society and Culture,9,2017,64150,10370,74520
+Society and Culture,9,2018,64220,10525,74745
+Society and Culture,9,2019,63585,11140,74730
+Society and Culture,9,2020,64110,9520,73630
+Society and Culture,9,2021,66555,7905,74460
+Society and Culture,9,2022,62915,7395,70310
+Society and Culture,9,2023,59905,8415,68315
+Society and Culture,9,2024,58985,8655,67640
+Society and Culture,9,2025,59865,8725,68590
+Creative Arts,10,2016,23000,2735,25735
+Creative Arts,10,2017,22525,3425,25950
+Creative Arts,10,2018,21150,3380,24535
+Creative Arts,10,2019,21015,3610,24625
+Creative Arts,10,2020,20245,2915,23155
+Creative Arts,10,2021,21045,2670,23715
+Creative Arts,10,2022,19635,2910,22545
+Creative Arts,10,2023,18905,3760,22665
+Creative Arts,10,2024,18470,3775,22245
+Creative Arts,10,2025,18450,3835,22285
+"Food, Hospitality and Personal Services",11,2016,500,220,720
+"Food, Hospitality and Personal Services",11,2017,415,155,570
+"Food, Hospitality and Personal Services",11,2018,345,170,520
+"Food, Hospitality and Personal Services",11,2019,335,290,620
+"Food, Hospitality and Personal Services",11,2020,375,255,630
+"Food, Hospitality and Personal Services",11,2021,340,130,470
+"Food, Hospitality and Personal Services",11,2022,285,115,400
+"Food, Hospitality and Personal Services",11,2023,230,145,375
+"Food, Hospitality and Personal Services",11,2024,250,90,340
+"Food, Hospitality and Personal Services",11,2025,285,100,385
+Mixed Field Programmes,11,2016,1215,220,1435
+Mixed Field Programmes,11,2017,750,170,920
+Mixed Field Programmes,11,2018,520,185,705
+Mixed Field Programmes,11,2019,530,140,670
+Mixed Field Programmes,11,2020,655,160,820
+Mixed Field Programmes,11,2021,555,155,710
+Mixed Field Programmes,11,2022,545,245,795
+Mixed Field Programmes,11,2023,530,240,770
+Mixed Field Programmes,11,2024,735,395,1130
+Mixed Field Programmes,11,2025,1055,405,1465
+Total (all fields),0,2016,126590,19305,145900
+Total (all fields),0,2017,125990,19865,145855
+Total (all fields),0,2018,124915,20295,145205
+Total (all fields),0,2019,124090,21555,145650
+Total (all fields),0,2020,124360,19320,143680
+Total (all fields),0,2021,129600,17345,146945
+Total (all fields),0,2022,125190,16565,141755
+Total (all fields),0,2023,121065,18950,140015
+Total (all fields),0,2024,120990,20305,141295
+Total (all fields),0,2025,123405,22025,145430
