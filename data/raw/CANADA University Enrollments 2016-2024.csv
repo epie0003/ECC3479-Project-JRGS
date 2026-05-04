@@ -1,0 +1,55 @@
+﻿"Postsecondary enrolments, by field of study, registration status, program type, credential type and gender c 1 2 3 4 5",,,,,,,,
+Frequency: Annual,,,,,,,,
+Table: 37-10-0011-01 (formerly CANSIM 477-0029),,,,,,,,
+Release date: 2025-11-20,,,,,,,,
+"Geography: Canada, Geographical region of Canada, Province or territory",,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Geography,Canada,,,,,,,
+Institution type,"Total, institution type",,,,,,,
+Registration status,"Total, registration status",,,,,,,
+Program type,"Total, program type",,,,,,,
+Credential type,"Total, credential type",,,,,,,
+Gender 6,"Total, gender",,,,,,,
+Field of study 7,2016 / 2017,2017 / 2018,2018 / 2019,2019 / 2020,2020 / 2021,2021 / 2022,2022 / 2023,2023 / 2024
+,Number,,,,,,,
+"Total, field of study","2,076,105","2,116,545","2,156,445","2,185,539","2,173,071","2,197,533","2,213,391","2,342,547"
+Personal improvement and leisure  [0],"20,232","21,264","22,179","21,885","14,529","15,096","16,026","18,810"
+Education  [1],"91,881","91,011","92,556","95,454","98,469","101,751","100,767","102,846"
+"Visual and performing arts, and communications technologies  [2]","81,333","82,305","83,007","84,060","82,272","82,449","82,866","86,709"
+Humanities  [3],"278,829","267,900","268,554","259,038","255,510","239,490","232,173","239,910"
+Social and behavioural sciences and law  [4],"287,424","288,942","292,158","297,840","307,584","308,196","302,469","311,307"
+"Business, management and public administration  [5]","374,307","388,281","397,557","409,371","413,934","419,496","431,559","476,952"
+Physical and life sciences and technologies  [6],"168,195","171,432","173,505","177,312","182,028","186,159","186,033","193,563"
+"Mathematics, computer and information sciences  [7]","82,794","92,928","103,533","115,413","123,261","131,688","144,210","164,601"
+"Architecture, engineering and related technologies  [8]","221,493","227,688","229,971","235,707","228,705","231,648","238,263","250,725"
+"Agriculture, natural resources and conservation  [9]","37,269","38,778","39,372","40,290","39,933","39,921","39,669","40,347"
+Health and related fields  [10],"255,558","260,607","262,647","265,227","268,164","275,124","277,008","287,493"
+"Personal, protective and transportation services  [11]","43,164","45,705","47,970","49,335","48,663","47,589","47,004","48,540"
+Other field of study  [12] 8,"52,896","54,204","55,302","53,445","50,718","49,545","47,619","50,142"
+"Unclassified, field of study 9","80,721","85,497","88,134","81,165","59,295","69,381","67,725","70,602"
+,,,,,,,,
+,,,,,,,,
+Table Corrections:,,,,,,,,
+Date,Note,,,,,,,
+12/02/2019,Postsecondary Student Information System (PSIS) enrolment and graduate counts have been corrected for the reference years 2015/2016 and 2016/2017 due to an error that occurred during data processing that impacted one Ontario college. This error impacts total enrolment and graduate counts for Ontario and Canada as well as college enrolment and graduate counts for Ontario and Canada.,,,,,,,
+13/01/2023,"On January 13, 2023, Postsecondary Student Information System (PSIS) enrolment and graduate counts have been corrected for the reference year 2008/2009 due to an error that occurred during data processing that impacted Ontario universities enrolments and graduates. This error impacts total enrolment and graduate counts for Ontario and Canada as well as university enrolment and graduate counts for Ontario and Canada.",,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Footnotes:,,,,,,,,
+1,All counts are randomly rounded to a multiple of 3 using the following procedure: counts which are already a multiple of 3 are not adjusted; counts one greater than a multiple of 3 are adjusted to the next lowest multiple of 3 with a probability of two-thirds and to the next highest multiple of 3 with a probability of one-third. The probabilities are reversed for counts that are one less than a multiple of 3.,,,,,,,
+2,The data are subject to revision.,,,,,,,
+3,"Enrolments are based on students enrolled in the postsecondary institutions at the time of the fall snapshot date, that is, a single date chosen by the institution which falls from September 30th to December 1st. Therefore students who are not enrolled during this time period are excluded and enrolment totals do not represent a full academic year. This has a greater impact on colleges as they have a continuous intake of students and shorter programs. It should also be noted, enrolments are based on program counts and not student counts. If a student is enrolled in more than one program as of the snapshot date, then all of their programs are included in the count.",,,,,,,
+4,"Up to 2008, the count excludes students enrolled in programs related to pre-employment, apprenticeship, basic training or skills upgrading, second language training, job readiness or orientation programs. However, as of 2009, the count includes these programs but still excludes apprenticeship programs.",,,,,,,
+5,Totals may not add up to the sum of all categories due to rounding.,,,,,,,
+6,"In accordance with the Statistics Canada standard approved in October 2021, the Postsecondary Student Information System (PSIS) stopped collecting data on sex and began collecting data on gender. However, due to low counts, the Non-binary person"" category has been rolled into ""Gender unknown"" for the purposes of dissemination. As a result"," an increase in “Gender unknown” might be observed. <a href=""https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=1326727"" rel=""external noopener noreferrer"" target=""_blank"">""Gender unknown"" (opens new window)</a>.""",,,,,,
+7,"The Field of study” variable for enrolments and graduates refers to the <a href=""https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=1486532"" rel=""external noopener noreferrer"" target=""_blank""> Primary groupings (opens new window)</a> variant of the Classification of Instructional Programs (CIP) Canada 2021.""",,,,,,,
+8,"This category includes pre-technology education/pre-industrial arts programs; multidisciplinary/interdisciplinary studies, other; and high school/secondary diploma and certificate programs.",,,,,,,
+9,This category includes all programs without sufficient information to be classified within the primary groupings variant of the Classification of Instructional Programs (CIP) Canada 2021.,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"How to cite: Statistics Canada. Table 37-10-0011-01  Postsecondary enrolments, by field of study, registration status, program type, credential type and gender",,,,,,,,
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710001101,,,,,,,,

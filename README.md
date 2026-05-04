@@ -51,6 +51,43 @@ A `Limitations.ipynb` notebook in `docs/` documents known data limitations (cove
 
 > **Note:** All EDA notebooks must be run top-to-bottom from a fresh kernel. `EDA Questions.ipynb` in particular depends on a setup cell that must execute first.
 
+## Regression Analysis Notebooks
+
+All regression notebooks are in `docs/Regression Analysis/`.
+
+### Template and methodology
+
+- **`DiD Modelling.ipynb`** — the foundational template notebook. Establishes the two-way fixed effects (TWFE) difference-in-differences specification (`log_enrollments ~ treated + nz_dummy + did + C(year)`, HC3 robust SEs), builds the 3-country panel (AUS vs UK + NZ), and documents all modelling decisions. All individual discipline notebooks follow this template directly.
+
+### Data changes
+
+- **`Data Changes During Regression Stage.ipynb`** — documents all data changes made after the EDA stage, including the addition of New Zealand as a second control country, the NZ category-key mapping, and any panel construction decisions that differ from the original two-country setup.
+
+### Individual discipline notebooks
+
+Each discipline has its own self-contained regression notebook that runs the full analysis pipeline — panel construction, main DiD, COVID sensitivity, event study, placebo test, level robustness, and funding context — for that field specifically:
+
+| Notebook | Discipline | CategoryKey |
+|----------|-----------|-------------|
+| `REG Architecture & Building.ipynb` | Architecture & Building | 4 |
+| `REG Creative Arts.ipynb` | Creative Arts | 10 |
+| `REG Education.ipynb` | Education | 7 |
+| `REG Engineering & Related Tech.ipynb` | Engineering & Related Tech | 3 |
+| `REG Environment & Related.ipynb` | Environment & Related | 5 |
+| `REG Health.ipynb` | Health | 6 |
+| `REG Information Technology.ipynb` | Information Technology | 2 |
+| `REG Management & Commerce.ipynb` | Management & Commerce | 8 |
+| `REG Natural & Physical Science.ipynb` | Natural & Physical Science | 1 |
+| `REG Others.ipynb` | Others | 11 |
+| `REG Society & Culture.ipynb` | Society & Culture | 9 |
+
+### Cross-discipline summaries
+
+- **`REG All.ipynb`** — the master summary notebook. Runs the TWFE DiD for all 11 disciplines in a single pass and consolidates results into a unified comparison table with significance stars. Also includes the pooled triple-difference (DDD) test (`treated:post:priority`) that directly tests whether JRG produced a stronger enrolment shift in priority fields versus non-priority fields.
+- **`REG Priority vs Non-Priority Disciplines.ipynb`** — standalone DDD regression notebook with full output for the priority vs non-priority specification.
+
+> **Note:** Each discipline notebook is self-contained and can be run independently. All notebooks use the same TWFE formula and HC3 standard errors. Results in the individual notebooks match the corresponding rows in `REG All.ipynb` exactly.
+
 ## Using the Reproducible Code Scripts
 
 The `code/` folder contains Python scripts that transform rates data into analysis-ready formats. These scripts are reproducible and can be run independently:

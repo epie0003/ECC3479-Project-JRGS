@@ -15,7 +15,19 @@
       "Bash(python gen_arch_notebook.py)",
       "Bash(.venv/Scripts/python -c ' *)",
       "Bash(.venv/Scripts/python -m jupyter --version)",
-      "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=120 \"docs/Regression Analysis/REG Architecture & Building.ipynb\")"
+      "Bash(.venv/Scripts/python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=120 \"docs/Regression Analysis/REG Architecture & Building.ipynb\")",
+      "Bash(python -m jupyter nbconvert --to notebook --execute \"docs/Regression Analysis/REG Priority vs Non-Priority Disciplines.ipynb\" --output /tmp/test_ddd_out.ipynb)",
+      "Bash(python -m jupyter nbconvert --to notebook --execute \"docs/Regression Analysis/REG Priority vs Non-Priority Disciplines.ipynb\" --output /tmp/test_ddd_fixed.ipynb)",
+      "Bash(python -c \"import json; nb = json.load\\(open\\('docs/Report/Data Section Report and Results.ipynb'\\)\\); print\\(f'Valid JSON: {len\\(nb[\\\\\"cells\\\\\"]\\)} cells, nbformat {nb[\\\\\"nbformat\\\\\"]}'\\)\")",
+      "Bash(python -m jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=120 \"docs/Report/Data Section Report and Results.ipynb\" --output \"docs/Report/Data Section Report and Results.ipynb\")",
+      "Bash(python -m jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=180 \"docs/Report/Data Section Report and Results.ipynb\" --output \"docs/Report/Data Section Report and Results.ipynb\")",
+      "Bash(python -m jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=180 \"docs/Report/Data Section Report and Results.ipynb\" --output-dir \"docs/Report\")",
+      "Bash(python -m jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=180 \"docs/Regression Analysis/REG All.ipynb\" --output-dir \"docs/Regression Analysis\")",
+      "Bash(python)",
+      "Bash(python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=120 \"docs/Regression Analysis/REG Education.ipynb\")",
+      "Bash(.venv/Scripts/python.exe -c ' *)",
+      "Bash(.venv/Scripts/jupyter.exe nbconvert *)",
+      "Bash(.venv\\\\Scripts\\\\python.exe -m jupyter nbconvert --to notebook --execute --inplace \"docs\\\\Report\\\\Tuition Comparisons.ipynb\")"
     ]
   }
 }

@@ -1,0 +1,81 @@
+field_of_study,category_key,year,total_enrollments
+Natural & Physical Science,1,2016,168195
+Natural & Physical Science,1,2017,171432
+Natural & Physical Science,1,2018,173505
+Natural & Physical Science,1,2019,177312
+Natural & Physical Science,1,2020,182028
+Natural & Physical Science,1,2021,186159
+Natural & Physical Science,1,2022,186033
+Natural & Physical Science,1,2023,193563
+Information Technology,2,2016,82794
+Information Technology,2,2017,92928
+Information Technology,2,2018,103533
+Information Technology,2,2019,115413
+Information Technology,2,2020,123261
+Information Technology,2,2021,131688
+Information Technology,2,2022,144210
+Information Technology,2,2023,164601
+Engineering & Related Tech,3,2016,221493
+Engineering & Related Tech,3,2017,227688
+Engineering & Related Tech,3,2018,229971
+Engineering & Related Tech,3,2019,235707
+Engineering & Related Tech,3,2020,228705
+Engineering & Related Tech,3,2021,231648
+Engineering & Related Tech,3,2022,238263
+Engineering & Related Tech,3,2023,250725
+Environment & Related,5,2016,37269
+Environment & Related,5,2017,38778
+Environment & Related,5,2018,39372
+Environment & Related,5,2019,40290
+Environment & Related,5,2020,39933
+Environment & Related,5,2021,39921
+Environment & Related,5,2022,39669
+Environment & Related,5,2023,40347
+Health,6,2016,255558
+Health,6,2017,260607
+Health,6,2018,262647
+Health,6,2019,265227
+Health,6,2020,268164
+Health,6,2021,275124
+Health,6,2022,277008
+Health,6,2023,287493
+Education,7,2016,91881
+Education,7,2017,91011
+Education,7,2018,92556
+Education,7,2019,95454
+Education,7,2020,98469
+Education,7,2021,101751
+Education,7,2022,100767
+Education,7,2023,102846
+Management & Commerce,8,2016,374307
+Management & Commerce,8,2017,388281
+Management & Commerce,8,2018,397557
+Management & Commerce,8,2019,409371
+Management & Commerce,8,2020,413934
+Management & Commerce,8,2021,419496
+Management & Commerce,8,2022,431559
+Management & Commerce,8,2023,476952
+Society & Culture,9,2016,566253
+Society & Culture,9,2017,556842
+Society & Culture,9,2018,560712
+Society & Culture,9,2019,556878
+Society & Culture,9,2020,563094
+Society & Culture,9,2021,547686
+Society & Culture,9,2022,534642
+Society & Culture,9,2023,551217
+Creative Arts,10,2016,81333
+Creative Arts,10,2017,82305
+Creative Arts,10,2018,83007
+Creative Arts,10,2019,84060
+Creative Arts,10,2020,82272
+Creative Arts,10,2021,82449
+Creative Arts,10,2022,82866
+Creative Arts,10,2023,86709
+Others,11,2016,52896
+Others,11,2017,54204
+Others,11,2018,55302
+Others,11,2019,53445
+Others,11,2020,50718
+Others,11,2021,49545
+Others,11,2022,47619
+Others,11,2023,50142
