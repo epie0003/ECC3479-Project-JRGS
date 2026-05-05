@@ -53,6 +53,9 @@ A `Limitations.ipynb` notebook in `docs/` documents known data limitations (cove
 
 ## Regression Analysis Notebooks
 
+> **Primary submission notebook: [`docs/Regression Analysis/REG All.ipynb`](docs/Regression%20Analysis/REG%20All.ipynb)**
+> This is the main analysis file for assessment. It contains the causal declaration, full econometric specification and identification strategy, a formatted regression table (Table 1) with all eleven discipline-level DiD estimates, a coefficient plot, an aggregate event study, interpretation of results, threats to identification, and an overall conclusion. Individual discipline notebooks (`REG *.ipynb`) provide the full per-discipline pipeline and are supplementary.
+
 All regression notebooks are in `docs/Regression Analysis/`.
 
 ### Template and methodology
@@ -175,6 +178,8 @@ Primary cleaned datasets:
 2. `data/clean/EnrollmentsAUS_category_with_numeric_key.csv`
 3. `data/clean/employment_by_industry_20y+keys.csv`
 4. `data/clean/uk_grouped/with_categorykey/UK_enrollments_grouped_comparison_all_years_with_categorykey.csv`
+5. `data/clean/NZ_bachelors_enrollments_2016_2025.csv` — New Zealand bachelor enrolments by discipline and year; used in the regression analysis panel as the second control country
+6. `data/clean/canada_enrollments_2016_2024.csv` — Canadian postsecondary enrolments by discipline and year; used in the Section 7 robustness check in `REG All.ipynb`
 
 ### Data Codebook (Variables)
 
@@ -266,6 +271,7 @@ Open and run these notebooks in order:
 2. `docs/Data Collecting Notes/UK Uni Enrollments RAW.ipynb`
 3. `docs/Data Collecting Notes/AUS Uni Funding.ipynb`
 4. `docs/Data Collecting Notes/Employment Shortages AUS.ipynb`
+5. `docs/Data Collecting Notes/Canada Uni Enrollments.ipynb`
 
 Notebook outputs and notes:
 
@@ -292,6 +298,10 @@ Notebook outputs and notes:
 	- Output: `data/clean/employment_by_industry_20y+keys.csv`
 	- Output: `data/intermediary/clean/employment_by_industry_20y.csv`
 	- Output: `data/intermediary/clean/employment_by_industry_20y_transposed.csv`
+5. `docs/Data Collecting Notes/Canada Uni Enrollments.ipynb`
+	- Input: `data/raw/CANADA University Enrollments 2016-2024.csv`
+	- Output: `data/clean/canada_enrollments_2016_2024.csv`
+	- Note: this output is used solely in the Section 7 robustness check in `REG All.ipynb`; it is not required to run the main 3-country regression analysis
 
 ### 5. Run scripts in required order
 
@@ -321,9 +331,11 @@ After the notebooks and scripts finish, confirm that these primary analysis-read
 2. `data/clean/EnrollmentsAUS_category_with_numeric_key.csv`
 3. `data/clean/employment_by_industry_20y+keys.csv`
 4. `data/clean/uk_grouped/with_categorykey/UK_enrollments_grouped_comparison_all_years_with_categorykey.csv`
-5. `rates/combined_allocation_of_units_of_study.csv`
-6. `rates/allocation_of_units_of_study_year_comparison.csv`
-7. `rates/allocation_of_units_of_study_year_comparison_by_foe_code.csv`
+5. `data/clean/NZ_bachelors_enrollments_2016_2025.csv`
+6. `data/clean/canada_enrollments_2016_2024.csv`
+7. `rates/combined_allocation_of_units_of_study.csv`
+8. `rates/allocation_of_units_of_study_year_comparison.csv`
+9. `rates/allocation_of_units_of_study_year_comparison_by_foe_code.csv`
 
 ## Submission Rules Coverage
 

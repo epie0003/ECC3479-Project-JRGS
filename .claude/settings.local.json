@@ -27,7 +27,9 @@
       "Bash(python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=120 \"docs/Regression Analysis/REG Education.ipynb\")",
       "Bash(.venv/Scripts/python.exe -c ' *)",
       "Bash(.venv/Scripts/jupyter.exe nbconvert *)",
-      "Bash(.venv\\\\Scripts\\\\python.exe -m jupyter nbconvert --to notebook --execute --inplace \"docs\\\\Report\\\\Tuition Comparisons.ipynb\")"
+      "Bash(.venv\\\\Scripts\\\\python.exe -m jupyter nbconvert --to notebook --execute --inplace \"docs\\\\Report\\\\Tuition Comparisons.ipynb\")",
+      "Bash(Get-Item -Path \"c:\\\\Users\\\\neddp\\\\ECC3479-Project-JRGS\\\\data\\\\clean\\\\NZ_bachelors_enrollments_2016_2025.csv\" -ErrorAction SilentlyContinue)",
+      "Bash(Select-Object -Property FullName)"
     ]
   }
 }
