@@ -63,9 +63,9 @@ All regression notebooks are in `docs/Regression Analysis/`.
 
 - **`Data Changes During Regression Stage.ipynb`** — documents all data changes made after the EDA stage, including the addition of New Zealand as a second control country, the NZ category-key mapping, and any panel construction decisions that differ from the original two-country setup.
 
-### Individual discipline notebooks
+### Individual discipline notebooks — primary analysis
 
-Each discipline has its own self-contained regression notebook that runs the full analysis pipeline — panel construction, main DiD, COVID sensitivity, event study, placebo test, level robustness, and funding context — for that field specifically:
+The eleven discipline-specific notebooks are the **primary output of the regression analysis**. Each one runs the full pipeline for a single field — panel construction, main DiD estimate, event study, placebo test, and funding context — and produces the discipline-level coefficient that is the main unit of interpretation. Reading across these notebooks gives the most complete and granular picture of where the JRG had effects and where it did not.
 
 | Notebook | Discipline | CategoryKey |
 |----------|-----------|-------------|
@@ -81,12 +81,12 @@ Each discipline has its own self-contained regression notebook that runs the ful
 | `REG Others.ipynb` | Others | 11 |
 | `REG Society & Culture.ipynb` | Society & Culture | 9 |
 
-### Cross-discipline summaries
-
-- **`REG All.ipynb`** — the master summary notebook. Runs the TWFE DiD for all 11 disciplines in a single pass and consolidates results into a unified comparison table with significance stars. Also includes the pooled triple-difference (DDD) test (`treated:post:priority`) that directly tests whether JRG produced a stronger enrolment shift in priority fields versus non-priority fields.
-- **`REG Priority vs Non-Priority Disciplines.ipynb`** — standalone DDD regression notebook with full output for the priority vs non-priority specification.
-
 > **Note:** Each discipline notebook is self-contained and can be run independently. All notebooks use the same TWFE formula and HC3 standard errors. Results in the individual notebooks match the corresponding rows in `REG All.ipynb` exactly.
+
+### Cross-discipline summaries — supplementary
+
+- **`REG All.ipynb`** — compiles all 11 discipline-level DiD estimates into a single comparison table with significance stars, a coefficient plot, and an aggregate event study. Also includes a Canada robustness check and a pooled DDD test as supplementary material; these are secondary to the discipline-level results.
+- **`REG Priority vs Non-Priority Disciplines.ipynb`** — standalone DDD notebook that collapses all disciplines into a priority/non-priority binary. This is supplementary only: the broad grouping obscures the variation across individual fields, and the discipline-level coefficients above provide a more informative basis for interpreting the JRG's effects.
 
 ## Using the Reproducible Code Scripts
 
