@@ -16,7 +16,7 @@ Install commands:
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-pip install pandas openpyxl jupyter matplotlib numpy selenium
+pip install pandas openpyxl jupyter matplotlib numpy selenium statsmodels
 ```
 
 ## Repository Structure
@@ -234,7 +234,7 @@ cd ECC3479-Project-JRGS
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-pip install pandas openpyxl jupyter matplotlib numpy selenium
+pip install pandas openpyxl jupyter matplotlib numpy selenium statsmodels
 ```
 
 ### 3. Confirm required input data exists
@@ -272,6 +272,18 @@ Open and run these notebooks in order:
 3. `docs/Data Collecting Notes/AUS Uni Funding.ipynb`
 4. `docs/Data Collecting Notes/Employment Shortages AUS.ipynb`
 5. `docs/Data Collecting Notes/Canada Uni Enrollments.ipynb`
+
+### 4b. Run primary econometric analysis
+
+After the data preparation notebooks have been run and all clean outputs confirmed:
+
+6. `docs/Regression Analysis/REG All.ipynb` — main analysis notebook; produces all 11 discipline-level DiD estimates (Table 1), coefficient plot, aggregate event study, and Canada robustness check.
+
+### 4c. Run robustness checks
+
+7. `docs/Robustness Checks/Robustness Checks.ipynb` — runs end-to-end on the clean data produced by step 4. Performs heteroskedasticity diagnostics (Breusch-Pagan), SE comparison (Classical vs HC1 vs HC3), Moulton factor analysis, and four families of robustness checks: alternative control sets, alternative samples, alternative functional form, and placebo tests. Produces Table R1 (focused robustness table for Education and M&C) and Table R2 (full 11-discipline table).
+
+> **Dependency:** `Robustness Checks.ipynb` reads the same clean data files as `REG All.ipynb`. It does not depend on `REG All.ipynb` having been run first, but the results it verifies are the estimates reported in `REG All.ipynb`.
 
 Notebook outputs and notes:
 
