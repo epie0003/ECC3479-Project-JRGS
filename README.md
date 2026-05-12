@@ -281,7 +281,7 @@ After the data preparation notebooks have been run and all clean outputs confirm
 
 ### 4c. Run robustness checks
 
-7. `docs/Robustness Checks/Robustness Checks.ipynb` — runs end-to-end on the clean data produced by step 4. Performs heteroskedasticity diagnostics (Breusch-Pagan), SE comparison (Classical vs HC1 vs HC3), Moulton factor analysis, and four families of robustness checks: alternative control sets, alternative samples, alternative functional form, and placebo tests. Produces Table R1 (focused robustness table for Education and M&C) and Table R2 (full 11-discipline table).
+7. `docs/Robustness Checks/Robustness Checks.ipynb` — runs end-to-end on the clean data produced by step 4. Performs heteroskedasticity diagnostics (Breusch-Pagan), SE comparison (Classical vs HC1 vs HC3), Moulton factor analysis, and seven robustness checks: alternative control sets, alternative samples (with Cook's Distance / DFBETA influence diagnostics), jackknife by cluster (alternative control groups), alternative functional form, country-specific linear trends, wrong-period placebo, wrong-group placebo, and permutation inference. Produces Table R1 (focused robustness table for Education and M&C) and Table R2 (full 11-discipline table). Includes honest failure reporting per Lu & White (2014).
 
 > **Dependency:** `Robustness Checks.ipynb` reads the same clean data files as `REG All.ipynb`. It does not depend on `REG All.ipynb` having been run first, but the results it verifies are the estimates reported in `REG All.ipynb`.
 

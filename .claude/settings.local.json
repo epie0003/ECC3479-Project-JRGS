@@ -46,7 +46,18 @@
       "Bash(.venv/Scripts/python.exe fix_sg_ses.py)",
       "Bash(ls *.txt)",
       "Bash(ls _*)",
-      "Bash(rm \"c:/Users/neddp/ECC3479-Project-JRGS/docs/Robustness Checks/\"_*.txt)"
+      "Bash(rm \"c:/Users/neddp/ECC3479-Project-JRGS/docs/Robustness Checks/\"_*.txt)",
+      "Bash(.venv/Scripts/python.exe add_cook_ihs.py)",
+      "Bash(.venv/Scripts/python.exe update_cook_interp.py)",
+      "Bash(python fix_pdf_gaps.py)",
+      "Bash(python fix_interp.py)",
+      "Bash(rm fix_pdf_gaps.py fix_interp.py)",
+      "Bash(ls *.py)",
+      "Bash(python fix_final.py)",
+      "Bash(rm fix_final.py)",
+      "Bash(.venv\\\\Scripts\\\\python.exe -c \"import matplotlib; print\\('matplotlib OK in venv:', matplotlib.__version__\\)\")",
+      "Bash(.venv\\\\Scripts\\\\python.exe -m pip list)",
+      "Bash(findstr -i \"matplotlib statsmodels pandas numpy\")"
     ],
     "additionalDirectories": [
       "c:\\Users\\neddp\\ECC3479-Project-JRGS\\docs\\Robustness Checks"
