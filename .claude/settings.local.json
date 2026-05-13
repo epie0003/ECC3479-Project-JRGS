@@ -57,7 +57,17 @@
       "Bash(rm fix_final.py)",
       "Bash(.venv\\\\Scripts\\\\python.exe -c \"import matplotlib; print\\('matplotlib OK in venv:', matplotlib.__version__\\)\")",
       "Bash(.venv\\\\Scripts\\\\python.exe -m pip list)",
-      "Bash(findstr -i \"matplotlib statsmodels pandas numpy\")"
+      "Bash(findstr -i \"matplotlib statsmodels pandas numpy\")",
+      "Bash(python gen_limitations.py)",
+      "Bash(rm gen_limitations.py)",
+      "Bash(python gen_results.py)",
+      "Bash(rm gen_results.py)",
+      "Bash(python fix_results_prose.py)",
+      "Bash(rm fix_results_prose.py)",
+      "Bash(python fix_trim.py)",
+      "Bash(rm fix_trim.py)",
+      "Bash(python add_robustness_section.py)",
+      "Bash(rm add_robustness_section.py)"
     ],
     "additionalDirectories": [
       "c:\\Users\\neddp\\ECC3479-Project-JRGS\\docs\\Robustness Checks"
