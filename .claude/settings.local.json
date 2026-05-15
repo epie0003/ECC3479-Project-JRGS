@@ -67,7 +67,17 @@
       "Bash(python fix_trim.py)",
       "Bash(rm fix_trim.py)",
       "Bash(python add_robustness_section.py)",
-      "Bash(rm add_robustness_section.py)"
+      "Bash(rm add_robustness_section.py)",
+      "Bash(python c:\\\\Users\\\\neddp\\\\ECC3479-Project-JRGS\\\\build_draft.py)",
+      "Bash(python \"c:\\\\Users\\\\neddp\\\\ECC3479-Project-JRGS\\\\build_draft.py\")",
+      "Bash(.venv\\\\Scripts\\\\python.exe -m jupyter nbconvert --version)",
+      "Bash(.venv\\\\Scripts\\\\python.exe -c \"import nbconvert; print\\(nbconvert.__version__\\)\")",
+      "PowerShell(cd \"c:\\\\Users\\\\neddp\\\\ECC3479-Project-JRGS\"; Select-String -Path \"docs\\\\Report\\\\Draft 1.html\" -Pattern \"font-size|line-height|padding|margin\" | Select-Object -First 40 | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "PowerShell(cd \"c:\\\\Users\\\\neddp\\\\ECC3479-Project-JRGS\"; Select-String -Path \"docs\\\\Report\\\\Draft 1.html\" -Pattern \"jp-content-font-size|jp-ui-font-size|--jp-content\" | Select-Object -First 20 | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "PowerShell(cd \"c:\\\\Users\\\\neddp\\\\ECC3479-Project-JRGS\"; Select-String -Path \"docs\\\\Report\\\\Draft 1.html\" -Pattern \"\\\\-\\\\-jp-content-font-size[0-9]:|--jp-ui-font-size[0-9]:\" | Select-Object -First 20 | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "PowerShell(cd \"c:\\\\Users\\\\neddp\\\\ECC3479-Project-JRGS\"; Select-String -Path \"docs\\\\Report\\\\Draft 1.html\" -Pattern \"jp-Cell|jp-MarkdownOutput|jp-OutputArea|jp-RenderedMarkdown|jp-RenderedHTMLCommon\" | Select-Object -First 15 | ForEach-Object { $_.Line.Trim\\(\\).Substring\\(0, [Math]::Min\\(120, $_.Line.Trim\\(\\).Length\\)\\) })",
+      "PowerShell(cd \"c:\\\\Users\\\\neddp\\\\ECC3479-Project-JRGS\"; Select-String -Path \"docs\\\\Report\\\\Draft 1.html\" -Pattern \"\\\\.jp-RenderedHTMLCommon \\(h[1-6]|p |table|li \\)\" | Select-Object -First 20 | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "Bash(python3 -c ' *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\neddp\\ECC3479-Project-JRGS\\docs\\Robustness Checks"
