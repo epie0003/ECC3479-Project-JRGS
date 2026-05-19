@@ -6,6 +6,9 @@ The submitted PDF (`docs/Report/ECC3479 Final Report epie0003.pdf`) is assembled
 
 | Artefact | Producing notebook |
 |---|---|
+| Table D1. Maximum student contribution by discipline (fee table) | `docs/Report/Data and Methodology.ipynb` (cell `dm_fee_code`) |
+| Table D2. Summary statistics — enrolment panel | `docs/Report/Data and Methodology.ipynb` (cell `dm_sumstats_code`) |
+| Table D0. Sample construction and exclusions | `docs/Report/Data and Methodology.ipynb` (cell `dm_excl_code`) |
 | Figure 1. Pre-treatment log-enrolment trends | `docs/Report/Data and Methodology.ipynb` (cell `dm_pretrend_code`) |
 | Table 1. TWFE DiD estimates — all eleven disciplines | `docs/Report/Results.ipynb` (cell `res_table1`) |
 | Figure 2. Coefficient plot — DiD estimates by discipline | `docs/Report/Results.ipynb` (cell `res_plot`) |
