@@ -96,7 +96,10 @@
       "Bash(rm _fix_remove_nces.py)",
       "Bash(python _fix_canada_ref.py)",
       "Bash(rm _fix_canada_ref.py)",
-      "Bash(python -m jupyter nbconvert --execute --to html --no-input --output-dir \"docs/Report\" --ExecutePreprocessor.kernel_name=ecc3479-venv --ExecutePreprocessor.timeout=600 \"docs/Report/Draft 2.ipynb\")"
+      "Bash(python -m jupyter nbconvert --execute --to html --no-input --output-dir \"docs/Report\" --ExecutePreprocessor.kernel_name=ecc3479-venv --ExecutePreprocessor.timeout=600 \"docs/Report/Draft 2.ipynb\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\neddp\\ECC3479-Project-JRGS\\docs\\Robustness Checks"
