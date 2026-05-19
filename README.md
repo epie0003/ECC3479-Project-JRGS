@@ -1,5 +1,20 @@
 # ECC3479 Project - JRGS
 
+## PDF Report — Tables and Figures
+
+The submitted PDF (`docs/Report/ECC3479 Final Report epie0003.pdf`) is assembled by `build_draft2.py` and exported by `export_pdf2.py` from the section notebooks listed below. Each table and figure in the PDF is produced by the following notebook:
+
+| Artefact | Producing notebook |
+|---|---|
+| Figure 1. Pre-treatment log-enrolment trends | `docs/Report/Data and Methodology.ipynb` (cell `dm_pretrend_code`) |
+| Table 1. TWFE DiD estimates — all eleven disciplines | `docs/Report/Results.ipynb` (cell `res_table1`) |
+| Figure 2. Coefficient plot — DiD estimates by discipline | `docs/Report/Results.ipynb` (cell `res_plot`) |
+| Table 2. Robustness of main estimates | `docs/Report/Robustness.ipynb` (cell `rob_table`) |
+
+To reproduce the PDF from scratch: run `python build_draft2.py` then `python export_pdf2.py` from the project root (requires the `ecc3479-venv` kernel and Playwright Chromium).
+
+---
+
 ## Project Question
 
 Did the Job-ready Graduates Package increase student enrollments in STEM, languages, education, and healthcare compared with arts and humanities?

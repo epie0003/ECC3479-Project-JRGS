@@ -77,7 +77,26 @@
       "PowerShell(cd \"c:\\\\Users\\\\neddp\\\\ECC3479-Project-JRGS\"; Select-String -Path \"docs\\\\Report\\\\Draft 1.html\" -Pattern \"\\\\-\\\\-jp-content-font-size[0-9]:|--jp-ui-font-size[0-9]:\" | Select-Object -First 20 | ForEach-Object { $_.Line.Trim\\(\\) })",
       "PowerShell(cd \"c:\\\\Users\\\\neddp\\\\ECC3479-Project-JRGS\"; Select-String -Path \"docs\\\\Report\\\\Draft 1.html\" -Pattern \"jp-Cell|jp-MarkdownOutput|jp-OutputArea|jp-RenderedMarkdown|jp-RenderedHTMLCommon\" | Select-Object -First 15 | ForEach-Object { $_.Line.Trim\\(\\).Substring\\(0, [Math]::Min\\(120, $_.Line.Trim\\(\\).Length\\)\\) })",
       "PowerShell(cd \"c:\\\\Users\\\\neddp\\\\ECC3479-Project-JRGS\"; Select-String -Path \"docs\\\\Report\\\\Draft 1.html\" -Pattern \"\\\\.jp-RenderedHTMLCommon \\(h[1-6]|p |table|li \\)\" | Select-Object -First 20 | ForEach-Object { $_.Line.Trim\\(\\) })",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(python build_draft2.py)",
+      "Bash(python export_pdf2.py)",
+      "Bash(python _fix_dollars.py)",
+      "Bash(del _fix_dollars.py)",
+      "Bash(python _fix_dollars2.py)",
+      "Bash(python _fix_currency.py)",
+      "WebFetch(domain:www.educationcounts.govt.nz)",
+      "Bash(ls *.md *.txt)",
+      "Bash(cat README.md)",
+      "Bash(python _fix_methodology.py)",
+      "Bash(del \"c:/Users/neddp/ECC3479-Project-JRGS/_fix_methodology.py\")",
+      "Bash(python _fix_all.py)",
+      "Bash(python _fix_nces.py)",
+      "Bash(rm _fix_nces.py)",
+      "Bash(python _fix_remove_nces.py)",
+      "Bash(rm _fix_remove_nces.py)",
+      "Bash(python _fix_canada_ref.py)",
+      "Bash(rm _fix_canada_ref.py)",
+      "Bash(python -m jupyter nbconvert --execute --to html --no-input --output-dir \"docs/Report\" --ExecutePreprocessor.kernel_name=ecc3479-venv --ExecutePreprocessor.timeout=600 \"docs/Report/Draft 2.ipynb\")"
     ],
     "additionalDirectories": [
       "c:\\Users\\neddp\\ECC3479-Project-JRGS\\docs\\Robustness Checks"
