@@ -14,7 +14,7 @@ The submitted PDF (`docs/Report/ECC3479 Final Report epie0003.pdf`) is assembled
 | Figure 2. Coefficient plot — DiD estimates by discipline | `docs/Report/Results.ipynb` (cell `res_plot`) |
 | Table 2. Robustness of main estimates | `docs/Report/Robustness.ipynb` (cell `rob_table`) |
 
-To reproduce the PDF from scratch: run `python build_draft2.py` then `python export_pdf2.py` from the project root (requires the `ecc3479-venv` kernel and Playwright Chromium).
+To reproduce the submitted PDF, open and run **[`reproduce_report.ipynb`](reproduce_report.ipynb)** from top to bottom (requires the `ecc3479-venv` kernel and Playwright Chromium). The notebook runs `build_draft2.py`, then `export_pdf2.py`, then copies the output to `docs/Report/ECC3479 Final Report epie0003.pdf`. Alternatively, run the two scripts manually: `python build_draft2.py` then `python export_pdf2.py`; this produces `docs/Report/Draft 2.pdf`, which is identical in content to the submitted file.
 
 ---
 
